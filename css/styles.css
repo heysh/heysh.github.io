@@ -1,0 +1,10 @@
+h1 {
+    font-family: serif;
+}
+
+.fill {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
