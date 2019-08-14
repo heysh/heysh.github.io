@@ -34,6 +34,7 @@ function countdown() {
         seconds = (seconds < 10) ? "0" + seconds : seconds;
         minutes = (minutes < 10) ? "0" + minutes : minutes;
         hours = (hours < 10) ? "0" + hours : hours;
+        days = (days == 0) ? "0" : days;
 
         if (daysElement.textContent != days) {
             daysElement.textContent = days;
