@@ -9,7 +9,7 @@ function countdown() {
     var secondsElement = getElementByXpath("/html/body/div/div/table/tbody/tr/td[4]/h1");
 
     var today = new Date();
-    var targetDate = new Date(2022, 4, 23);
+    var targetDate = new Date(2022, 6, 8, 15); // year, month - 1, day, hour
 
     var now = today.getTime();
     var targetTime = targetDate.getTime();
